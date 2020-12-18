@@ -9,7 +9,7 @@ public class UserDto {
         return username;
     }
 
-    public void setUsername(String username) {
+    void setUsername(String username) {
         this.username = username;
     }
 
@@ -17,7 +17,7 @@ public class UserDto {
         return password;
     }
 
-    public void setPassword(String password) {
+    void setPassword(String password) {
         this.password = password;
     }
 
@@ -25,7 +25,7 @@ public class UserDto {
         return recaptchaToken;
     }
 
-    public void setRecaptchaToken(String recaptchaToken) {
+    void setRecaptchaToken(String recaptchaToken) {
         this.recaptchaToken = recaptchaToken;
     }
 }

@@ -1,23 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Regression Web UI" verbose="1">
+<suite name="Regression API" verbose="1">
     <test name="ApiTest">
         <packages>
             <package name="com.usa.web.api"/>
         </packages>
     </test>
 </suite>
-
-<!--<suite name="RegressionAPI" verbose="1">-->
-    <!--<test name="ApiTest Validation">-->
-        <!--<classes>-->
-            <!--<class name="com.usa.web.api.ApiTest">-->
-                <!--<methods>-->
-                    <!--<include name="positiveLoadLogin"/>-->
-                    <!--<include name="negativeLoadLogin"/>-->
-                <!--</methods>-->
-            <!--</class>-->
-        <!--</classes>-->
-
-    <!--</test>-->
-<!--</suite>-->

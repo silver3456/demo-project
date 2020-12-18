@@ -2,7 +2,6 @@ package com.usa.web.pages.personal_info_components;
 
 import com.usa.web.pages.BasePage;
 import com.usa.web.pages.OfferPage;
-import com.usa.web.selenium.utils.StringRandomGenerator;
 import com.usa.web.selenium.utils.WaitUtil;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;

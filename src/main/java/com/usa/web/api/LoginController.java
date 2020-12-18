@@ -5,7 +5,7 @@ import io.restassured.response.ValidatableResponse;
 
 public class LoginController {
 
-    public ValidatableResponse login(UserDto user) {
+    ValidatableResponse login(UserDto user) {
         return RestAssured.given()
                 .log().all()
                 .header("x-cf-source-id", "coding-challenge")
